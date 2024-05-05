@@ -1,4 +1,5 @@
 import qrcode
+from PIL import Image
 
 def generate_qr_ascii(text_to_encode, filename):
   # Generate QR code
